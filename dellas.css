@@ -13,6 +13,7 @@
 @media screen and (max-width: 688px){
     body{
         background-color: green;
+        min-width: 280px;
     }
     h1{
         font-size: medium;
@@ -47,9 +48,7 @@
     }
     .text{
         display: block;
-        margin-top: 20px;
-        margin-right: 40px;
-        margin-left: 40px;
+        margin: 20px;
         background-color: red;
     }
     }
