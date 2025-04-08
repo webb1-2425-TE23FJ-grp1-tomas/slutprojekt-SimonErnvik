@@ -10,6 +10,7 @@
     }
     }
 
+/* ändra så att det är min-width fr.o.m. 688 och den här css är grundgrej. */
 @media screen and (max-width: 688px){
     body{
         background-color: green;
