@@ -14,6 +14,7 @@
     body{
         background-color: green;
         min-width: 280px;
+        margin: 0px;
     }
     h1{
         font-size: medium;
@@ -50,5 +51,16 @@
         display: block;
         margin: 20px;
         background-color: red;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: orange;
+    }
+    button{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 10px;
     }
     }
