@@ -1,7 +1,42 @@
+*{
+    font-family: 'Titillium Web';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+
 img{
     display: block;
     max-width: 100%;
     max-height: 100%;
+}
+
+.linkItem{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.linkItem2{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.finns{
+    display: block;
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
 }
 
 button{
@@ -27,10 +62,19 @@ header{
 .linkKnapp{
     background-color: red;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 138px;
+    width: 160px;
+    position: relative;
+    height: 120px;
+    /* ändra height när man klickar på den. */
 }
+
+.linkKnapp:hover{
+    cursor: pointer;
+}
+
 #titleknapp{
     height: 48px;
     width: 48px;
@@ -53,20 +97,20 @@ footer{
     background-color: orange;
 }
 
-@media screen and (min-width: 1312px){
+@media screen and (min-width: 688px){
     body{
-        background-color: purple;
+        background-color: pink;
     }
     }
 
-@media screen and (min-width: 992px){
+    @media screen and (min-width: 992px){
     body{
         background-color: yellow;
     }
     }
-
-    @media screen and (min-width: 688px){
+    
+@media screen and (min-width: 1312px){
     body{
-        background-color: pink;
+        background-color: purple;
     }
     }
