@@ -39,12 +39,27 @@ header{
 }
 .bildContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.bildContainer img{
+    border: solid gray thick;
 }
 
 @media screen and (min-width: 688px){
     body{
         background-color: purple;
+    }
+    .bildContainerFirst{
+        display: flex;
+        flex-direction: row;
+    }
+    .bildContainerLast{
+        display: flex;
+        flex-direction: row;
+    }
+    .bildContainer{
+        display: flex;
+        background-color: aqua;
     }
     }
 
