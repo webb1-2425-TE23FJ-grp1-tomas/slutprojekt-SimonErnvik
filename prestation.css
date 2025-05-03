@@ -39,7 +39,7 @@ header{
 }
 .bildContainer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .bildContainer img{
     border: solid gray thick;
@@ -49,17 +49,11 @@ header{
     body{
         background-color: purple;
     }
-    .bildContainerFirst{
-        display: flex;
-        flex-direction: row;
-    }
-    .bildContainerLast{
-        display: flex;
-        flex-direction: row;
-    }
+
     .bildContainer{
-        display: flex;
+        display: grid;
         background-color: aqua;
+        grid-template-columns:1fr 1fr;
     }
     }
 
