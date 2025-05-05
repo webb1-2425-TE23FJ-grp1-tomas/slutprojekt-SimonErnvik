@@ -18,8 +18,8 @@ a{
 
 img{
     display: block;
-    max-width: 100%;
-    max-height: 100%;
+    /* max-width: 100%;
+    max-height: 100%; */
 }
 button{
     display: flex;
@@ -41,8 +41,8 @@ header{
     display: flex;
     justify-content: center;
 }
-.bildContainer img{
-    border: solid gray thick;
+.containerBild{
+    max-width: 25%;
 }
 
 @media screen and (min-width: 688px){
@@ -52,10 +52,14 @@ header{
 
     .bildContainer{
         display: grid;
-        background-color: aqua;
+        background-color: red;
         grid-template-columns:1fr 1fr;
     }
+    
+    .containerBild{
+        min-width: 100%;
     }
+}
 
 @media screen and (min-width: 992px){
     body{
