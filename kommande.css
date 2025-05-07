@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0;
+    padding-top: 48px;
 }
 
 a{
@@ -43,6 +44,10 @@ header{
     height: 48px;
     justify-content: space-between;
     width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 .kalender{
     background-color: green;

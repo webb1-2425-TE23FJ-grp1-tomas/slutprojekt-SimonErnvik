@@ -1,6 +1,7 @@
 body{
     background-color: beige;
     margin:0;
+    padding-top: 48px;
 }
 
 a{
@@ -36,6 +37,11 @@ header{
     display: flex;
     height: 48px;
     justify-content: space-between;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
 }
 .bildContainer{
     display: flex;
