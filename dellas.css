@@ -40,6 +40,7 @@ img{
     height:28px;
     align-items: center;
     justify-content: center;
+    width: 20vw;
 }
 
 button{
@@ -76,7 +77,6 @@ header{
     justify-content: center;
     width:30%;
     position: relative;
-    height: 48px;
 }
 
 .container{
