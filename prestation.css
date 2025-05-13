@@ -1,3 +1,10 @@
+*{
+    font-family: 'Titillium Web';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 body{
     background-color: beige;
     margin:0;
@@ -66,7 +73,7 @@ header{
     body{
         background-color: purple;
 }
-
+}
 @media screen and (min-width: 992px){
     body{
         background-color: yellow;
@@ -78,10 +85,16 @@ header{
     .containerBild{
         width: 25vw;
     }
-}
+    header{
+        height: 60px;
     }
+}
+    
 @media screen and (min-width: 1312px){
     body{
         background-color: red;
     }
+    header{
+        height:80px;
     }
+}

@@ -124,10 +124,16 @@ footer{
     body{
         background-color: yellow;
     }
+    header{
+        height: 60px;
+    }
     }
     
 @media screen and (min-width: 1312px){
     body{
         background-color: purple;
+    }
+    header{
+        height:80px;
     }
     }
