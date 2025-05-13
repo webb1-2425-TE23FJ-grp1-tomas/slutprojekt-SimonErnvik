@@ -87,6 +87,9 @@ header{
     header{
         height: 60px;
     }
+    .tabell{
+        margin-top: 12px;
+    }
 }
     
 @media screen and (min-width: 1312px){
@@ -95,5 +98,8 @@ header{
     }
     header{
         height:80px;
+    }
+    .tabell{
+        margin-top: 32px;
     }
 }

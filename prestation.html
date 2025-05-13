@@ -10,7 +10,7 @@
 <body>
     <header>
     <div class="topleftCorner">
-        <img src="titleknapp.webp" id="titleknapp">
+        <img src="../bilder/titleknapp.webp" id="titleknapp">
     <h1>Senaste prestationer</h1>
     </div>
     <a href="index.html">Ta mig hem</a>
@@ -37,17 +37,21 @@
   </table>
 </div>
 <div class="bildContainer">
-    <img class="containerBild" src="vinst0.webp" alt="vinstBild0">
-    <img class="containerBild" src="vinst1.webp" alt="vinstBild1">
-    <img class="containerBild" src="vinst2.webp" alt="vinstBild2">
-    <img class="containerBild "src="vinst3.webp" alt="vinstBild3">
+    <picture><source media="(min-width:650px)" srcset="../bilder/vinst0-900.webp">
+      <source media="(min-width:465px)" srcset="../bilder/vinst0.webp">
+    <img class="containerBild" src="../bilder/vinst0.webp" alt="vinstBild0">
+    </picture>
+    <!-- DET FUNKAR!!!!!!!! -->
+    <img class="containerBild" src="../bilder/vinst1.webp" alt="vinstBild1">
+    <img class="containerBild" src="../bilder/vinst2.webp" alt="vinstBild2">
+    <img class="containerBild "src="../bilder/vinst3.webp" alt="vinstBild3">
 </div>
 <footer class="tabell">
   <!-- etiskt korrekt att ha class på footer? -->
   <h2>Här finns fler bilder på Della</h2>
   <button>
     <p>@labradoodle_della</p>
-    <img src="instagramp1.webp">
+    <img src="../bilder/instagramp1.webp">
   </button>
 </footer>
 </body>

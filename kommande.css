@@ -1,10 +1,16 @@
 *{
     font-family: 'Titillium Web';
 }
+
 a{
     text-decoration: none;
     color: black;
 }
+
+#comp{
+    margin-top: 0;
+}
+
 body{
     background-color: brown;
     display: flex;
@@ -77,6 +83,9 @@ header{
     header{
         height: 60px;
     }
+    #comp{
+        margin-top: 12px;
+    }
     }
 @media screen and (min-width: 1312px){
     body{
@@ -84,5 +93,8 @@ header{
     }
     header{
         height:80px;
+    }
+    #comp{
+        margin-top: 32px;
     }
     }
