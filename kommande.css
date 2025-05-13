@@ -16,7 +16,6 @@ body{
 
 a{
     display: flex;
-    height: 48px;
     background-color: orange;
     justify-content: center;
     align-items: center;
