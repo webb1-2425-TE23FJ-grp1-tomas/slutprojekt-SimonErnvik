@@ -5,6 +5,11 @@
 a{
     text-decoration: none;
     color: black;
+    font-family: 'Titillium Web';
+}
+
+h1{
+    font-size: medium;
 }
 
 #comp{

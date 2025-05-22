@@ -4,6 +4,11 @@
 a{
     text-decoration: none;
     color: black;
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 body{
     background-color: beige;
@@ -11,13 +16,10 @@ body{
     padding-top: 48px;
 }
 
-a{
-    display: flex;
-    background-color: orange;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+h1{
+    font-size: medium;
 }
+
 #titleknapp{
     width: 48px;
     border-radius: 10px;
