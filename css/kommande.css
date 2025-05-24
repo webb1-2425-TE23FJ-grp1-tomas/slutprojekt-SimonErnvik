@@ -17,7 +17,7 @@ h1{
 }
 
 body{
-    background-color: brown;
+    background-color: grey;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,7 @@ a{
 }
 
 .regler{
-    background-color: blueviolet;
+    background-color: white;
     margin: 10px;
     max-width: 85%;
 }
@@ -77,13 +77,13 @@ header{
 
 @media screen and (min-width: 688px){
     body{
-        background-color: purple;
+        background-color: darkgrey;
     }
     }
 
 @media screen and (min-width: 992px){
     body{
-        background-color: yellow;
+        background-color: darkslategrey;
     }
     header{
         height: 60px;
@@ -94,7 +94,7 @@ header{
     }
 @media screen and (min-width: 1312px){
     body{
-        background-color: red;
+        background-color: grey;
     }
     header{
         height:80px;

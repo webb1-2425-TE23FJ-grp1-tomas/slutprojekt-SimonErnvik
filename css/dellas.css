@@ -62,7 +62,7 @@ body{
     padding-top: 48px;
 }
 h1{
-    font-size: medium;
+    font-size: small;
 }
 header{
     display: flex;
@@ -159,5 +159,8 @@ footer{
     }
     .containerBild{
         margin-top: 32px;
+    }
+    .text{
+        width: 60vw;
     }
 }

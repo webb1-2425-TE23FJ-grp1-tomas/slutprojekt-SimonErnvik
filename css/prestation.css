@@ -11,7 +11,7 @@ a{
     width: 30%;
 }
 body{
-    background-color: beige;
+    background-color: white;
     margin:0;
     padding-top: 48px;
 }
@@ -25,7 +25,7 @@ h1{
     border-radius: 10px;
 }
 table{
-    border-style: solid;
+    border-style: dashed;
     width: 90vw;
     margin-bottom: 20px;
 }
@@ -72,12 +72,13 @@ header{
 
 @media screen and (min-width: 688px){
     body{
-        background-color: purple;
+        background-color: beige;
 }
 }
 @media screen and (min-width: 992px){
     body{
-        background-color: yellow;
+        font-size: large;
+        background-color: lightcyan;
     }
     .bildContainer{
         display: flex;
@@ -96,7 +97,7 @@ header{
     
 @media screen and (min-width: 1312px){
     body{
-        background-color: red;
+        background-color: lightgoldenrodyellow;
     }
     header{
         height:80px;
